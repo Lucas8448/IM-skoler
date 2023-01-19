@@ -10,6 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            Image("fyrstikkalleen_skole")
+                .resizable()
+                .scaledToFit()
+            Text("Fyrstikkalleen Skole")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+            HStack {
+                Text("Fyrstikkalléen 21, 0661 Oslo")
+                    .fontWeight(.bold)
+            }
         }
     }
 }
